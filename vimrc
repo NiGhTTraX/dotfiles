@@ -205,3 +205,5 @@ if has("cscope")
         set cscopequickfix=s-,c-,d-,i-,t-,e-,g-
 endif
 
+" Save when losing focus
+au FocusLost * :wa
