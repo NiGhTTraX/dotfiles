@@ -1,7 +1,7 @@
 export ADOTDIR=~/.antigen/config
 source ~/.antigen/antigen.zsh
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:~/.local/bin"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:${HOME}/.local/bin"
 export EDITOR=vim
 
 antigen use oh-my-zsh
