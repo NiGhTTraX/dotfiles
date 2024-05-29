@@ -1,10 +1,10 @@
+export LANG=en_US.UTF-8
+export EDITOR=vim
+
 export ADOTDIR=~/.antigen/config
 source ~/.antigen/antigen.zsh
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:${HOME}/.local/bin"
-export EDITOR=vim
-
-antigen use oh-my-zsh
 
 # Case-sensitive completion.
 CASE_SENSITIVE="true"
@@ -22,6 +22,9 @@ if ! ps -p $PPID | grep -q java; then
 fi
 
 ZSH_TMUX_AUTOCONNECT=false
+
+ANTIGEN_LOG=/tmp/antigen.log
+antigen use oh-my-zsh
 
 antigen bundle git
 antigen bundle tmux
