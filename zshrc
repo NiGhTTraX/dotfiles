@@ -28,7 +28,6 @@ antigen use oh-my-zsh
 
 antigen bundle git
 antigen bundle tmux
-antigen bundle docker
 antigen bundle mafredri/zsh-async@main
 antigen bundle sindresorhus/pure@main
 antigen bundle zsh-users/zsh-syntax-highlighting
