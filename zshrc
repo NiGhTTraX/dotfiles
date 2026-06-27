@@ -32,6 +32,7 @@ antigen bundle mafredri/zsh-async@main
 antigen bundle sindresorhus/pure@main
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle Aloxaf/fzf-tab
 
 antigen apply
 
