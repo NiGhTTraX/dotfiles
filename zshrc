@@ -21,7 +21,7 @@ if ! ps -p $PPID | grep -q java; then
   ZSH_TMUX_AUTOSTART=true;
 fi
 
-ZSH_TMUX_AUTOCONNECT=false
+ZSH_TMUX_AUTOCONNECT=true
 
 ANTIGEN_LOG=/tmp/antigen.log
 antigen use oh-my-zsh
