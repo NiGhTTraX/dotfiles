@@ -45,6 +45,8 @@ setopt HIST_SAVE_NO_DUPS
 setopt HIST_EXPIRE_DUPS_FIRST
 setopt HIST_IGNORE_ALL_DUPS
 
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+
 # Bash like autocompletion where tab completes the common prefix and then waits.
 setopt autolist
 unsetopt menucomplete
